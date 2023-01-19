@@ -37,13 +37,10 @@ body{
 .btn{
     width: 100px;
     height: 40px;
-    border-radius: 5px;
-    color: black;
     text-align: center;
     margin-right: 10px;
     margin-top: 10px;
     border-radius: 20px;
-    text-align: center;
     font-size: 15px;
     background-color: rgb(51, 162, 255);
     color: white;
@@ -92,7 +89,6 @@ body{
     border-radius: 5px;
     margin-left: 6px;
     padding: 4px;
-    color: black;
     text-align: center;
     font-size: 15px;
     background-color: rgb(51, 162, 255);
@@ -106,6 +102,7 @@ body{
     cursor: pointer;
     opacity: 0.8;
     color: rgba(0, 0, 0, 0.84);
+    width: 150px;
 }
 
 .card_container{
