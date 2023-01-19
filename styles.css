@@ -1,0 +1,90 @@
+
+
+.uber{
+    width: 120px;
+    height: 40px;
+    border: 1px;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: black;
+    opacity: 0.9;
+    color: white;
+    transition: 0.5s;
+}
+
+.uber:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.amazon{
+    width: 180px;
+    height: 40px;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 15px;
+    background-color: rgb(252, 199, 36);
+    color: black;
+    transition: 1s;
+    border: none;
+}
+
+.amazon:hover{
+    background-color: rgb(234, 167, 3);
+    cursor: pointer;
+}
+
+.apply{
+    width: 250px;
+    height: 45px;
+    border-radius: 20px;
+    border: 1px;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: rgb(0, 80, 255);
+    color: white;
+    font-size: 15px;
+    font-family: "Arial Rounded MT Bold";
+    transition: 0.5s;
+}
+
+.apply:hover{
+    background-color: rgb(5, 44, 93);
+    cursor: pointer;
+
+}
+
+.save{
+    width: 80px;
+    height: 40px;
+    border-width: 2px;
+    border-radius: 20px;
+    background-color: white;
+    border-color: rgb(0, 80, 255);
+    color: rgb(0, 80, 255);
+    font-family: "Franklin Gothic Medium";
+    font-size: 20px;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 10px;
+    transition: 0.2s;
+}
+
+.save:hover{
+    background-color: rgb(204, 226, 255);
+    cursor: pointer;
+}
+
+.write{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+    font-size: 25px;
+}
