@@ -1,10 +1,16 @@
+body{
+    background-color: grey;
+}
+
+
 .tweet_bar{
-    box-shadow: 0 0 6px rgba(0, 0, 0,0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0,0.8);
     display: inline-block;
     border-style: solid;
     border-radius: 10px;
     border-color: white;
-
+    background-color: white;
+    margin: 200px 100px 100px 200px;
 }
 
 .cat_image{
