@@ -1,0 +1,115 @@
+body{
+    background-color: grey;
+}
+
+
+.tweet_bar{
+    box-shadow: 0 0 10px rgba(0, 0, 0,0.8);
+    display: inline-block;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: white;
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.cat_image{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 80%;
+    margin: 10px 10px;
+    vertical-align: middle;
+    object-fit: fill;
+
+}
+.text_input{
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    margin: 10px 10px;
+    font-size: 15px;
+    font-family: "Arial Rounded MT Bold";
+    border: none;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 15px;
+    background-color: rgb(51, 162, 255);
+    color: white;
+    font-family: "Arial Rounded MT Bold";
+    transition: 0.5s;
+    border: none;
+}
+
+.btn:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    color: rgba(0, 0, 0, 0.84);
+}
+
+.friend_card{
+    width: 200px;
+    height: 265px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0,0.8);
+    border: none;
+}
+
+.card_image{
+    width: 200px;
+    height: 149.7px;
+    object-fit: fill;
+}
+
+.cat_name{
+    margin: 5px 4px;
+    font-size: 20px;
+    font-family: "monospace";
+}
+
+.card_text{
+    margin-left: 4px;
+    margin-bottom: 13px;
+    margin-top: 5px;
+    font-size: 15px;
+    color: grey;
+}
+
+.card_button{
+    width: 110px;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 6px;
+    padding: 4px;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    background-color: rgb(51, 162, 255);
+    color: white;
+    font-family: "Arial Rounded MT Bold";
+    transition: 0.5s;
+    border: none;
+}
+
+.card_button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    color: rgba(0, 0, 0, 0.84);
+}
+
+.card_container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
