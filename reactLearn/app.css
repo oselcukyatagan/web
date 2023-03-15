@@ -1,0 +1,57 @@
+.App{
+
+
+}
+
+.navbar-place-holder{
+  background-color: rgba(26, 26, 35, 0.94);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.navbar-logo-text{
+  color: rgb(0, 217, 255);
+  font-size: 24px;
+  margin: 0px 28px;
+}
+
+.navbar-title{
+  color: white;
+  font-size: 18px;
+  margin: 0px 28px;
+  font-family: monospace;
+}
+
+.mainContent-place-holder{
+  background-color: #50505a;
+  height: 350px;
+  padding-left: 30px;
+  background-image: url("./images/just-background.jpg");
+  background-size: cover;
+}
+
+.mainContent-text{
+  color: white;
+  display: block;
+  margin-top: 0;
+  padding-top: 60px;
+  margin-bottom: 0;
+}
+
+.mainContent-list{
+  color: white;
+  display: inline-block;
+  padding-left: 50px;
+  padding-top: 0;
+}
+
+.mainContent-list li{
+  margin-top: 10px;
+  color: rgb(0, 217, 255);
+}
+
+.mainContent-list li span{
+  color: white;
+}
