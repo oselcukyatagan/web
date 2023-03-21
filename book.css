@@ -1,0 +1,80 @@
+:root{
+    --bg-primary: #16213E;
+    font-size: 12px;
+}
+
+body{
+   background-color: var(--bg-primary);
+}
+
+.sidebar-placeHolder{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0;
+    width: 14rem;
+    height: 100vh;
+    box-shadow: 8px 0px 10px -5px rgba(0,0,0,0.75);
+    color: white;
+}
+
+.sidebar-content{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    color: inherit;
+}
+
+.sidebar-placeHolder a{
+    display: flex;
+    font-size: 1.22rem;
+    gap: 0.5rem;
+    color: inherit;
+    height: 1rem;
+    text-decoration: none;
+    padding: 40px;
+}
+
+.sidebar-placeHolder ul{
+    padding: 0;
+
+}
+
+.sidebar-placeHolder a:hover{
+    background-color: aqua;
+    transition: 1s;
+}
+
+.sidebar-placeHolder ul{
+    list-style: none;
+}
+
+
+.sidebar-last{
+    display: flex ;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 5rem;
+    margin-bottom: 2rem;
+}
+
+.sidebar-settings,
+.sidebar-logout{
+    background-color: #16213E;
+    color: inherit;
+    margin: 0;
+    padding: 0;
+    border: none;
+    height: 2rem;
+    border-radius: 30px;
+}
+
+.sidebar-settings:hover,
+.sidebar-logout:hover{
+    cursor: pointer;
+    background-color: aqua;
+}
+
+
