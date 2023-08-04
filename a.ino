@@ -30,6 +30,18 @@ int signBreak = 100;
 int letterBreak = 300;
 int wordBreak = 300;
 
+void dotSound() {
+
+  delay(dotWait);
+}
+
+void dashSound() {
+
+  delay(dashWait);
+  noTone(buzzer);
+}
+
+
 void dot(int i) {
   digitalWrite(led, HIGH);
   tone(buzzer, buzzFreq);
